@@ -46,7 +46,10 @@
   "jest": {
     "collectCoverage": true,
     "moduleFileExtensions": ["js", "jsx"],
-    "moduleDirectories": ["node_modules", "packages"]
+    "moduleDirectories": ["node_modules", "packages"],
+    "moduleNameMapper": {
+      ".*": "<rootDir>/packages/$1/src"
+    }
   },
   "dependencies": {},
   "devDependencies": {
