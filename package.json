@@ -48,7 +48,8 @@
     "moduleFileExtensions": ["js", "jsx"],
     "moduleDirectories": ["node_modules", "packages"],
     "moduleNameMapper": {
-      ".*": "<rootDir>/packages/$1/src"
+      "react-(.*)": "packages/react-$1/src/index.js",
+      "reactabular-(.*)": "packages/reactabular-$1/index.js"
     }
   },
   "dependencies": {},
